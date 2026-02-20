@@ -1,0 +1,48 @@
+*{
+padding: 0;
+margin: 0;
+background-color: rgb(10, 5, 5);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.main{
+    font-size: 30px;
+    color: beige;
+    padding-left:20%;
+    padding-top:10%;
+}
+.main h1 {
+    margin-left: 24%;
+}
+.main h4{
+    margin-left: 24%;
+}
+span{
+    color: brown;
+}
+#btn{
+    color: rgb(20, 4, 10);
+    background-color: rgb(243, 243, 250);
+    margin-left: 33%;
+    width:10%;
+    height:40px;
+    border-radius: 15px;
+    box-shadow:10px 8px 8px 5px;
+    transform: 0.5s ;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+#btn:hover{
+    color: rgb(212, 208, 235);
+    opacity: 0.5;
+}
+#result {
+    margin-left: 28%;
+    margin-top: 6%;
+    font-size: 30px;
+    font-weight: bold;
+    
+
+}
