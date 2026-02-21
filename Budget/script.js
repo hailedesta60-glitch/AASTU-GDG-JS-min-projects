@@ -20,7 +20,12 @@ if (totalMoney >= totalExpense) {
             Total Expense: $${totalExpense.toFixed(2)} <br>
             ✅ You can afford it!
         `;
-    } else {
+    }else if(totalMoney === totalExpense){
+        result.style.color = "brown"
+        result.style.fontSize ="23px"
+        result.innerHTML = 'your totalmoney and your total expense is the same so do not buy this one becuase you don have money to affored for food.lol'
+      }
+     else {
         result.style.color = "red";
         result.innerHTML = `
             Total Money Available: $${totalMoney.toFixed(2)} <br>
@@ -28,5 +33,5 @@ if (totalMoney >= totalExpense) {
             ❌ You cannot afford it.
         `;
     }
-}
+})
 

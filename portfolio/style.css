@@ -113,7 +113,7 @@ color: aliceblue;
     background-color: red;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius:50% ;
     transition: 0.3s;
 }
 .btn:hover{
@@ -184,6 +184,19 @@ color: aliceblue;
 .about-text #but:hover{
     background-color:transparent;
     border: 2px solid  #a30f0f;
+}
+.btnn{
+  display: inline-block;
+    margin-top: 25px;
+  
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
 }
 /* ............ service....... */
 .service{
